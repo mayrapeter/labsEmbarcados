@@ -38,6 +38,7 @@ volatile char flag_tc = 0;
 volatile char flag_tc2 = 0;
 volatile Bool f_rtt_alarme = false;
 volatile char flag_rtc = 0;
+volatile char flag_rtc2 = 0;
 
 void pin_toggle(Pio *pio, uint32_t mask);
 static void RTT_init(uint16_t pllPreScale, uint32_t IrqNPulses);
